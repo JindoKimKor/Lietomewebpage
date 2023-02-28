@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;1,300&family=Poppins&display=swap');
+*{
+        box-sizing: border-box;
+}
+body{
+        font-family: 'Poppins', sans-serif;
+        padding: 10px;
+        margin: 10px auto;
+        border: 3px solid black;
+        border-radius: 10px;
+        width: 1200px;
+        
+}
+header{
+        text-align: right;
+        padding: 5px 20px;
+        margin: 0px 0px 25px 0px;
+        text-shadow: 15px -15px grey;
+        position: relative;
+ 
+        
+}
+header img{
+        position: absolute;
+        border-radius: 10px;
+        width: 100px;
+        height: 100px;
+        top: 5px;
+        left: 5px;
+}
+
+
+nav{
+        
+        border: 3px solid black;
+        padding: 10px 0px;
+        margin: 10px 0px 0px 0px;
+        text-align: center;        
+        background-color: grey;
+        border-radius: 20px;
+        
+}
+nav a{
+        font-size: 30px;
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 0px 40px;
+
+}
+nav a:hover{
+        color: brown;
+        transition: 2s;
+}
+main{
+        float: right;
+        clear: right;
+        width: 65%;
+        height: 440px;
+        text-align: justify;
+}
+
+main a{
+        text-decoration: none;
+        color: red;
+
+}
+
+main a:hover{
+        color: blueviolet;
+        transition: 1s;
+}
+
+main img{
+        width: 97%;
+        height: 240px;        
+}
+
+aside{
+        float: left;
+        clear: left;
+        line-height: 1.6;        
+        width: 35%;
+}
+aside h2{
+        letter-spacing:-1px;
+}
+
+
+footer{
+        clear: both;
+        text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+        body{
+                padding: 0px;
+                margin: 0px 0px;
+                border: 2px solid black;
+                border-radius: 10px;
+                max-width: 390px;
+                position: relative;
+                
+        }
+        header{
+                margin: 0px auto;
+                text-align: right;
+                padding: 1px 30px 0px 0px;
+                text-shadow: 15px -15px grey;
+                position: relative;
+                
+                
+        }
+        header img{
+                position: absolute;
+                border-radius: 10px;
+                width: 70px;
+                height: 70px;
+                top: 4px;
+                left: 10px;
+        }
+        
+        
+        nav{
+                
+                border: 1px solid black;
+                padding: 5px 0px;
+                margin: 0px auto;
+                text-align: center;      
+                background-color: grey;
+                border-radius: 5px;
+                width: 98%;
+                
+                
+        }
+        nav a{
+                
+                font-size: 12px;
+                text-decoration: none;
+                color: whitesmoke;
+                padding: 0px 8px;
+        
+        }
+        nav a:hover{
+                color: brown;
+        }
+        main{
+                float:none;
+                width: 98%;
+                font-size: 0.5em;
+                height: 320px;
+                text-align: center;               
+        }
+        
+        
+        main a{
+                text-decoration: none;
+                color: red;
+        
+        }
+        
+        main a:hover{
+                color: blueviolet;
+                transition: 1s;
+        }
+        
+        main img{
+                width: 96%;
+                height: 240px;                
+        }
+        main p{
+                margin: 0px auto;
+                text-align: justify;
+                width: 98%;
+        }
+        
+        aside{
+                
+                font-size: 0.8em;
+                float: none;
+                clear: none;
+                line-height: 1.15;        
+                width: 100%;
+        }
+        aside h2{
+                padding: 0px 0px 0px 10px;
+                letter-spacing: 0px;
+        }
+        
+        
+
+         footer{
+                font-size: 12px;
+         }
+}
